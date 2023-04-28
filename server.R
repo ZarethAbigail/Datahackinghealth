@@ -49,7 +49,6 @@ server <- function(input, output) {
     )
   })
   
-  # Textos ------------------------------------------------------------------
   
   output$conteo_hombres <- renderText({
     paste("La cantidad de pacientes hombres es: ", 
